@@ -1,0 +1,60 @@
+{
+  "model": {
+    "name": "yolov8n.pt",
+    "confidence_threshold": 0.3,
+    "iou_threshold": 0.45,
+    "vehicle_classes": [2, 3, 5, 7],
+    "class_names": {
+      "2": "car",
+      "3": "motorcycle",
+      "5": "bus",
+      "7": "truck"
+    }
+  },
+  "tracker": {
+    "max_disappeared": 50,
+    "max_distance": 50,
+    "trajectory_length": 30
+  },
+  "zones": [
+    {
+      "name": "Zone 1 - Main Road",
+      "polygon": [[100, 100], [700, 100], [700, 350], [100, 350]],
+      "capacity": 15,
+      "enabled": true
+    },
+    {
+      "name": "Zone 2 - Intersection",
+      "polygon": [[100, 350], [700, 350], [700, 600], [100, 600]],
+      "capacity": 20,
+      "enabled": true
+    }
+  ],
+  "congestion_thresholds": {
+    "low": 0.3,
+    "moderate": 0.6,
+    "high": 0.8
+  },
+  "visualization": {
+    "show_bounding_boxes": true,
+    "show_trajectories": true,
+    "show_zones": true,
+    "show_dashboard": true,
+    "dashboard_position": "top-left",
+    "font_scale": 0.6,
+    "line_thickness": 2
+  },
+  "output": {
+    "save_video": true,
+    "save_reports": true,
+    "video_codec": "mp4v",
+    "fps": 30,
+    "report_format": "json"
+  },
+  "performance": {
+    "skip_frames": 0,
+    "resize_width": null,
+    "resize_height": null,
+    "use_gpu": true
+  }
+}

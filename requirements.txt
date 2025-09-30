@@ -1,0 +1,11 @@
+opencv-python
+ultralytics
+numpy
+scipy
+Pillow
+matplotlib
+pandas
+
+# GPU Support 
+# torch
+# torchvision

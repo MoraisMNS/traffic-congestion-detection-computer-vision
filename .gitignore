@@ -1,0 +1,125 @@
+# Traffic Congestion Detection - .gitignore
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg
+*.egg-info/
+dist/
+build/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.manifest
+*.spec
+
+# Virtual Environments
+venv/
+myenv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*.ipynb
+
+# YOLO Models (large files - download separately)
+*.pt
+*.pth
+*.weights
+*.onnx
+yolov8*.pt
+
+# Video files (too large for git)
+*.mp4
+*.avi
+*.mov
+*.mkv
+*.flv
+*.wmv
+*.webm
+
+# Image files (optional - uncomment if you want to exclude)
+# *.jpg
+# *.jpeg
+# *.png
+# *.gif
+
+# Output files
+output/
+outputs/
+results/
+runs/
+analytics/
+
+# Reports
+reports/
+*.json
+!config.json
+
+# Logs
+*.log
+logs/
+
+# Temporary files
+*.tmp
+*.temp
+*.cache
+.cache/
+
+# System files
+Thumbs.db
+.DS_Store
+desktop.ini
+
+# Environment variables
+.env
+.env.local
+
+# Data folders (large datasets)
+data/
+dataset/
+datasets/
+videos/
+
+# Matplotlib
+*.png
+!docs/*.png
+
+# pytest
+.pytest_cache/
+.coverage
+htmlcov/
+
+# MyPy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Profiling
+*.prof
+
+# Database
+*.db
+*.sqlite
+*.sqlite3
