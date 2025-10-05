@@ -1,0 +1,78 @@
+/* === Modern Sidebar Styling (Dashboard style) === */
+
+[data-testid="stSidebar"] {
+    background-color: #f7f9fc;
+    padding: 2rem 1rem;
+    border-right: 1px solid #e0e0e0;
+}
+
+/* Profile card at top of sidebar */
+.profile-card {
+    text-align: center;
+    margin-bottom: 1.5rem;
+}
+
+.profile-card .avatar {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    margin-bottom: 0.5rem;
+    box-shadow: 0px 2px 6px rgba(0,0,0,0.15);
+}
+
+.profile-card h3 {
+    margin: 0;
+    font-size: 1.1rem;
+    color: #1f2c3c;
+}
+
+.profile-card p {
+    margin-top: 0.3rem;
+    font-size: 0.85rem;
+    color: #6c757d;
+}
+
+/* Sidebar buttons menu */
+.sidebar-menu .stButton > button {
+    width: 100%;
+    text-align: left;
+    background-color: #ffffff;
+    color: #1f2c3c !important;
+    border: none;
+    border-radius: 12px;
+    padding: 0.8rem 1rem;
+    margin: 6px 0;
+    cursor: pointer;
+    font-weight: 500;
+    font-size: 0.95rem;
+    transition: all 0.2s ease;
+    box-shadow: 0px 1px 3px rgba(0,0,0,0.1);
+}
+
+.sidebar-menu .stButton > button:hover {
+    background-color: #e9eef7;
+    transform: translateX(4px);
+}
+
+.sidebar-menu .stButton > button:focus {
+    background-color: #d7e3ff;
+    color: #000 !important;
+    font-weight: bold;
+}
+
+/* Active button (selected mode) */
+.sidebar-menu .stButton > button:active {
+    background-color: #d7e3ff !important;
+    color: #000 !important;
+}
+
+/* Improve scrollbar appearance */
+::-webkit-scrollbar {
+    width: 6px;
+}
+::-webkit-scrollbar-thumb {
+    background-color: #c4c4c4;
+    border-radius: 3px;
+}
+
+
