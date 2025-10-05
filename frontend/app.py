@@ -24,7 +24,7 @@ if os.path.exists(css_path):
 st.sidebar.markdown("""
 <div class="profile-card">
     <img src="https://cdn-icons-png.flaticon.com/512/236/236831.png" class="avatar">
-    <h3>Ahamed Minhaj</h3>
+    <h3>Test User</h3>
     <p>Traffic Monitoring Dashboard</p>
 </div>
 """, unsafe_allow_html=True)
