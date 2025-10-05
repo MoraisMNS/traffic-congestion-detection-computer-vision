@@ -8,7 +8,7 @@ detector = TrafficCongestionDetector(
 
 # Process video
 report = detector.process_video(
-    video_path="traffic_video.mp4",  
+    video_path="traffic_video2.mp4",  
     output_path="output_analyzed.mp4",
     display=True
 )

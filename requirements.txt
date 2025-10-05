@@ -5,6 +5,8 @@ scipy
 Pillow
 matplotlib
 pandas
+streamlit
+imageio[ffmpeg]
 
 # GPU Support 
 # torch
