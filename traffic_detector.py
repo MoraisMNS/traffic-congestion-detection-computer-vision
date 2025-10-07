@@ -1,6 +1,6 @@
 """
 Professional Traffic Congestion Detection System
-Author: AI Assistant
+Author: Minhaj MHA and Morais MNS
 Description: Real-time traffic analysis with vehicle detection, tracking, and congestion metrics
 """
 
